@@ -1,0 +1,230 @@
+.home1{
+   width: 100%;
+   height: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.home__img{
+    width: 1640px;
+    height: 800px;
+    background-image: url("https://websitedemos.net/be-bold-beauty-store-04/wp-content/uploads/sites/1117/2022/08/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.head__txt{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 50px;
+    div{
+        h1{
+            color: white;
+            font-size: 70px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        p{
+            margin-top: 25px;
+            color: white;
+            font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    }
+}
+.homebtn{
+    width: 141px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.homebtn:hover{
+    color: #d4a6b6 ;
+    
+}
+.best__products{
+    width: 100%;
+    
+
+}
+.best__prodhead{
+    width: 1640px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    div{
+        text-align: center;
+        h2{
+            font-size: 50px;
+        }
+       
+    }
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+   margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }}
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.card__body{
+    button{
+        width: 150px;
+       height: 34px;
+        background-color: white;
+        color:#d4a6b6 ;
+       cursor: pointer;
+       border-radius: 5px;
+       border: none;
+       font-size: 20px;
+    }
+    button:hover{
+        border: solid;
+    }
+    
+}
+
+.new__collec{
+    width: 1640px;
+    height: 800px;
+    background-image: url("https://websitedemos.net/be-bold-beauty-store-04/wp-content/uploads/sites/1117/2022/08/bg-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.collections{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.collec1{
+    position: relative;
+    width: 810px;
+    height: 600px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    div{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        h3{
+            color: white;
+            font-size: 45px;
+        }
+        p{
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+@media only screen and (max-width:1037px) {
+    .home__img{
+        width: 1037px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .home__img{
+        width: 400px;
+    }
+    .head__txt{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:900px) {
+    
+    .new__collec{
+        display: none;
+    }
+    .collec1{
+        width: 100%;
+        height: 400px;
+    }
+}
+@media only screen and (max-width:810px) {
+    
+    .collec1{
+       display: none;
+    }
+}
+.why__choose{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fast{
+    width: 270px;
+    height: 114px;
+    display: flex;
+p{
+    font-size: 20px;
+}
+}
+.fast__txt{
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.fast1{
+    width: 270px;
+    height: 114px;
+    display: flex;
+p{
+    font-size: 20px;
+}
+border-bottom: 1px solid black;
+}
+
+.home2{
+    width: 100%;
+   height: 840px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.carusel{
+    height: 300px;
+    margin-top: 30px;
+}
+
+.item{
+    border: 1px solid grey;
+}

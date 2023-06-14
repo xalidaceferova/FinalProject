@@ -1,0 +1,37 @@
+footer{
+    width: 100%;
+   background-color: #f6edf0;
+   border-top: 1px solid grey;
+}
+
+.foot__icons{
+    display: flex;
+    gap: 20px;
+}
+.face:hover{
+     color: #d4a6b6;
+     cursor: pointer;
+}
+
+.footlist1{
+    ul{
+        list-style-type: none;
+    }
+}
+.footlist2{
+    ul{
+        list-style-type: none;
+        li{
+            font-size: 25px;
+            color: black;
+        }
+    }
+}
+.footend{
+    font-size: 20px;
+    color: grey;
+}
+.foottop{
+    
+    border-bottom: 1px solid grey;
+}

@@ -1,0 +1,133 @@
+.about__img2{
+    width: 1640px;
+    height: 600px;
+    background-image: url("https://websitedemos.net/be-bold-beauty-store-04/wp-content/uploads/sites/1117/2022/08/bg-06.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact__left{
+    width: 50%;
+    height: 700px;
+    
+    display: flex;
+    align-items: center;
+    
+}
+.contact__rigth{
+    width: 50%;
+    height: 100%;
+    background-color:#f6edf0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact__left__txt{
+    width: 350px;
+    height: 400px;
+    
+    margin-left: 50px;
+    h3{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        color: grey;
+    }
+}
+.first__icon{
+    margin-top: 30px;
+    span{
+        font-size: 25px;
+    }
+}
+.mailicon{
+    margin-top: 10px;
+    span{
+        font-size: 25px;
+    }
+}
+
+.phoneicon{
+    margin-top: 10px;
+    span{
+        font-size: 25px;
+    }
+}
+
+.inner__form{
+    width: 500px;
+    height: 600px;
+   
+    
+}
+.name{
+    width: 230px;
+    height: 50px;
+    margin-left: 10px;
+}
+.namelabel{
+    font-size: 30px;
+}
+.emaildiv{
+    margin-top: 50px;
+    margin-left: 10px;
+    label{
+        font-size: 30px;
+    }
+    input{
+        width: 470px;
+    height: 50px;
+    }
+}
+.messagediv{
+    margin-top: 50px;
+    margin-left: 10px;
+    label{
+        font-size: 30px;
+    }
+    input{
+        width: 470px;
+        height: 150px;
+    }
+}
+.submit{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.eror{
+    color: red;
+    border: solid;
+    width: 200px;
+    margin-left: 10px;
+}
+.namediv{
+    display: flex;
+    gap: 10px;
+}
+.nameinner{
+    display: block;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

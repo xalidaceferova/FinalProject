@@ -1,0 +1,61 @@
+.sort__makeup1{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    
+    font-size: 20px;
+}
+.sort__makeup2{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.makeup{
+    height: 300px;
+}
+.makeup__head{
+    p{
+        font-size: 20px;
+        color: grey;
+    }
+    h2{
+        font-size: 70px;
+    }
+}
+
+.makeup__cards{
+    margin-top: 30px;
+}
+
+.makeupcard{
+    width: 300px;
+    height: 450px;
+    margin-top: 10px;
+    transform: scale(0.9);
+    cursor: pointer;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.makeupcard:hover{
+    transform: scale(1);
+}
+.makeupcard__body{
+    button{
+        width: 150px;
+        height: 40px;
+        background-color: white;
+        color:#d4a6b6 ;
+       cursor: pointer;
+       border-radius: 5px;
+       border: none;
+       font-size: 20px;
+    }
+    button:hover{
+        border: solid;
+    }
+}
