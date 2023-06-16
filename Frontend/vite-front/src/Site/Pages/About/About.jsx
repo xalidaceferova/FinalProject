@@ -20,7 +20,7 @@ const About = () => {
 
       <div className='about__txt__left'>
          <div>
-         <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+         <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem</h2>
          </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><hr  />
       </div>

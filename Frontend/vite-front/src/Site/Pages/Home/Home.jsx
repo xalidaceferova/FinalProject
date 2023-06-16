@@ -155,10 +155,10 @@ const Home = () => {
     <section className='collections'>
 
       <div className='collec1 col-lg-6 col-md-12 col-sm-12'>
-        <img src="https://faberlic.com/images/banners/Recommendations-2-08-2023-az.jpg" alt="" />
+        <img src="https://template05.prima-desain.com/wp-content/uploads/2022/08/bg-02.jpg" alt="" />
        
           <div>
-          <h3>Awesome Makeup Kit Gift Sets</h3>
+          <h3>Awesome Makeup Kit Gift Sets lorem ipsum</h3>
           <p>Find your unique style</p>
           <button className='homebtn'>Shop Now</button>
           </div>
